@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.containner{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: "sidenav sidenav sidenav"
+    "titulo titulo titulo"
+    "item1 . item "
+    "item1  . item"
+    "item1 # "
+    "footer footer footer";
+}
+.item1{
+    min-width: 30vh; max-width: 60vh;
+    height: 60vh;
+    background-color: blueviolet;
+    border: 1px solid;
+    grid-area: "item1";
+    
+    
+}
+.item{
+    min-width: 200px; max-width: 35vh;
+    height: 60vh;
+    background-color: blueviolet;
+    border: 1px solid;
+    grid-area: "item";
+    
+}
+.sidenav{
+    border-radius: 3px;
+    box-shadow: -5px;
+    background-color: whitesmoke;
+    width: auto;
+    grid-area: "sidenav";
+    
+}
+.footer{
+    width: auto;
+    height: 10vh;
+    background-color: black;
+    grid-area: "footer";
+    
+    
+}
+
+.titulo{
+   text-align: center;
+}

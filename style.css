@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+}
+
+body{
+    background-color: rgb(238, 236, 236);
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
+}
+
+main{
+    width: 100vw;
+    height: 200%;
+    position: relative;
+    justify-content:space-between;
+ }
+
+ #titulo{
+    text-align: center;
+    background-color: white;
+    margin-top: 3px;
+}
+#descricao{
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    margin: 0;
+
+}
+ 
+
+header{
+    box-shadow: -10px 5px 5px rgba(0, 0, 0, 0.342);
+    width: 100vw;
+}
+.menu{
+    background-color: white;
+    display: flex;
+    text-decoration: none;
+    padding: 20px;
+    box-shadow: -10px 5px 5px rgba(0, 0, 0, 0.342); 
+    text-align: center;
+   justify-content: space-between;
+   align-items: center;
+    margin-bottom: 5px;
+    margin: auto;
+}
+
+.menu li a{
+    color: black;
+    margin-left: 10px;
+    text-decoration: none;
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+   
+}
+.logoinstagram{
+    display: flex;
+    justify-content: space-between; 
+    padding-left: 15px;
+    height: 20px;
+}
+ #primeira{
+    display: flex;
+   text-align: center;
+  justify-content: center;
+  position: relative;
+}
+
+#segunda{
+    display: flex;
+   text-align: center;
+  justify-content: center;
+  position: relative;
+
+}
+
+.passeios{
+    width: 600px;
+    background-color: white;
+    margin-top: 15px;
+    display: flexbox;
+    margin-left: 15%;
+    padding-bottom: 10px;
+    border: 1px;
+    box-shadow: rgb(200, 200, 200);
+}
+
+
+.botoes{
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
+
+#container{
+    height: 200px;
+    background-color: grey;
+    width: 100vw;
+ 
+}
+    
+
+
+p{
+    padding: 2%;
+}
+
+.casal{
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    margin-top:155px;
+    background-color: white;
+}
+
+ul li :hover{
+    background-color: rgb(202, 202, 202);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.fotocasal{
+    position: relative;
+    margin-top: -180px;
+    width: 200px;
+    height: 200px;
+    ;
+}
+.paisagem{
+    height: 250px;
+}
+
+.insta1{
+    width: 300px;
+    height: 600px;
+    text-align: center;
+    background-color: white;
+    margin-top: 15px;
+ }
+.insta{
+    width: 300px;
+    height: 600px;
+    text-align: justify;   
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+    bottom: 0%;
+    width: 100%;
+}
+
+@media screen (max-width: 1440px) {
+    #primeira{
+        width
+    }
+}
