@@ -106,17 +106,23 @@ a{
     position: relative;
     padding: 3px;
     margin: 0.8%;
+    display:inline-flex;
+    
+    
+}
+.pcasal{
+    position: absolute;
+    top: 300px;
 }
 
 .fotocasal{
-    width: 100%;
+    width: 98%;
+    height: 50%;
+    justify-content: center;
+    position:absolute;
+    
 }
-.paisagemscrr{
-    width: 15vw;
-    height: 40vh;
-    position: relative;
-    margin-top: 0%;
-}
+
 .foto3{
     width: 40vw;
     height: 80vh;
@@ -153,6 +159,7 @@ footer {
 @media screen and (max-width: 667px) and (min-width: 375px){
     header{
         width: 100vw;
+        
     }
     
     #titulo{
@@ -179,19 +186,28 @@ footer {
     }
 
     .foto2{
-        width: 375px;
-        height: 350px;
+        max-width: 375px;
+        max-height: 350px;
+        width: auto;
+        height: auto;
         justify-content: center;
         position: relative;
     }
 
     .fotocasal{
-        width: 375px;
-        height: 80%;
+        
+        width: auto;
+        height: auto;
         justify-content: center;
         position: relative;
+        
     }
 
+    .pcasal{
+        
+        top:89%
+
+    }
     .bot .botoes{
         margin: 3%;
     }
@@ -214,5 +230,11 @@ footer {
     height: 350px;
     justify-content: center;
     position: relative;
+   }
+
+   footer{
+       max-width: 100%;
+       position: absolute;
+       margin: 0 auto;
    }
 }
