@@ -78,7 +78,7 @@ a{
 .foto1{
     width: 40vw;
     height: 80vh;
-    background-color: brown;
+    background-color: rgb(255, 255, 255);
     padding: 3px;
     margin: 10px;
    
@@ -87,9 +87,10 @@ a{
 
 .coluna1{
     width: 100%;
+    height: 80%;
 }
-.coluna2{
-    width: 100%;
+.pfotos{
+    margin-top: 3%;
 }
 
 .textoimg{
@@ -101,29 +102,41 @@ a{
 .foto2{
     width: 15vw;
     height: 60vh;
-    background-color: brown;
-    background: url(midia/paisagemsocorro.jpg) no-repeat center;
-   background-position: relative;
-    background-position: top;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    padding: 3px;
+    margin: 0.8%;
+}
+
+.fotocasal{
+    width: 100%;
+}
+.paisagemscrr{
+    width: 15vw;
+    height: 40vh;
+    position: relative;
+    margin-top: 0%;
 }
 .foto3{
     width: 40vw;
     height: 80vh;
-    background-color: brown;
+    background-color: rgb(255, 255, 255);
     padding: 3px;
-    margin: 10px;
-    
-  
+    margin: 1%;
     
 }
 .foto4{
     width: 15vw;
-    height: 90vh;
-    background-color: brown;
-    /* margin: 8%; */
-  
-    
-}
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+    margin: 1%;
+    padding: 3px;
+  }
+
+  .botoes{
+      margin: 3%;
+  }
+
 footer {
     height: 200px;
     width: 100vw;
@@ -138,41 +151,68 @@ footer {
     }
 }
 @media screen and (max-width: 667px) and (min-width: 375px){
-    .descricao{
-        justify-content: center;
+    header{
+        width: 100vw;
     }
+    
+    #titulo{
+        width: 100vw;
+        height: 3vh;
+    }
+
+    #descricao{
+        justify-content: center;
+        width: 100vw;
+        height: 8vh;
+    }
+
+   
     .coluna1{
         width: 100%;
-        height: 130%;
+        height: 80%;
     }
     .foto1{
-        width: 98vw;
-        height: 33vh;
+        width: 375px;
+        height: 350px;
         justify-content: center;
+        position: relative;
     }
 
-    #primeira{
-        flex-wrap: wrap;
-
+    .foto2{
+        width: 375px;
+        height: 350px;
+        justify-content: center;
+        position: relative;
     }
+
+    .fotocasal{
+        width: 375px;
+        height: 80%;
+        justify-content: center;
+        position: relative;
+    }
+
+    .bot .botoes{
+        margin: 3%;
+    }
+    
+
+    
     #segunda{
         flex-wrap: wrap;
 
     }
     
-    .foto2{
-        width: 400px;
-        height: 287px;
-        justify-content: center;
-    }
     .foto3{
-        width: 400px;
-        height: 287px;
+        width: 375px;
+        height: 350px;
         justify-content: center;
+        position: relative;
     }
    .foto4{
-    width: 400px;
-    height: 287px;
+    width: 375px;
+    height: 350px;
     justify-content: center;
+    position: relative;
    }
 }
