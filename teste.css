@@ -7,6 +7,7 @@ body, html{
     background-color: rgb(235, 235, 235);
     width: 100vw;
     height: 100%;
+
 }
 
 .menu{
@@ -16,7 +17,7 @@ body, html{
     justify-content: space-around;
     background-color: rgb(226, 226, 226);
     text-decoration: none;
-    padding: 10px;
+    padding: 3px;
 }
 
 .menu li a{
@@ -40,13 +41,15 @@ a{
 }
 #titulo{
     width: 100vw;
-    padding: 10px;
+   
     text-align: center;
     margin-top: 5px;
     background-color: rgb(226, 226, 226);
     height: 5vh;
     font-weight: bolder;
     font-size: 18pt;
+    margin: 0;
+    margin-top: 5px;
 }
 
 .ptitulo{
@@ -158,7 +161,8 @@ footer {
     min-width: 100%;
     background-color: grey;
     text-align: center;
-  
+    display: block;
+    padding: 3px;
     
 }
 
