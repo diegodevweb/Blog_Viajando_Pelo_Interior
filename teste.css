@@ -1,16 +1,16 @@
 @charset "UTF-8";
-*{
+* {
     margin: 0 auto;
+    padding: 0 auto;
 }
 
-body, html{
+body, html {
     background-color: rgb(235, 235, 235);
     width: 100vw;
     height: 100%;
-
 }
 
-.menu{
+.menu {
     width: 100%;
     height: 10%;
     display: flex;
@@ -20,28 +20,28 @@ body, html{
     padding: 3px;
 }
 
-.menu li a{
+.menu li a {
     text-decoration: none;
     align-items: center;
 }
 
-ul{
+ul {
     list-style: none;
     display: flex;
 }
 
-ul li :hover{
+ul li :hover {
     background-color: rgb(202, 202, 202);
     border-radius: 5px;
     padding: 3px;
 }
-a{
+a {
     margin: 8px;
     color: rgb(103, 103, 103);
 }
-#titulo{
-    width: 100vw;
-   
+#titulo {
+    width: 100%;
+    height: 50px;
     text-align: center;
     margin-top: 5px;
     background-color: rgb(226, 226, 226);
@@ -52,61 +52,60 @@ a{
     margin-top: 5px;
 }
 
-.ptitulo{
+.ptitulo {
     text-align: center;
     font-weight: normal;
     font-size: 12pt;
     background-color: rgb(226, 226, 226);
-    width: 100vw;
+    width: 100%;
     height: 5vh;
     margin: 0;
 }
 
 
-#primeira{
+#primeira {
     display: flex;
     text-align: center;
     justify-content: center;
     position: relative;
     margin-top: 50px;
 }
-#segunda{
+#segunda {
     display: flex;
     text-align: center;
     justify-content: center;
     position: relative;
 }
-#terceira{
+#terceira {
     display: flex;
     text-align: center;
     justify-content: center;
     position: relative;
 }
-.foto1{
+.foto1 {
     width: 40vw;
     height: 80vh;
     background-color: rgb(255, 255, 255);
     padding: 3px;
     margin: 10px;
-   
-   
 }
 
-.coluna1{
+.coluna1 {
     width: 100%;
     height: 80%;
 }
-.pfotos{
+
+.pfotos {
     margin-top: 3%;
 }
 
-.textoimg{
+.textoimg {
     background-color: white;
     position: relative;
     justify-content: center;
 }
 
-.foto2{
+.foto2 {
     width: 15vw;
     height: 60vh;
     background-color: rgb(255, 255, 255);
@@ -114,47 +113,46 @@ a{
     padding: 3px;
     margin: 0.8%;
     display:inline-flex;
-    
-    
 }
-.pcasal{
+
+.pcasal {
     position: absolute;
     top: 300px;
 }
 
-.quemsomos{
+.quemsomos {
     width: 98%;
     height: 50%;
     justify-content: center;
     position:absolute;
-    
 }
-.dielari{
+
+.dielari {
     width: 70%;
     height:40% ;
     margin-top: 30%;
     z-index: 10;
 }
 
-.foto3{
+.foto3 {
     width: 40vw;
     height: 80vh;
     background-color: rgb(255, 255, 255);
     padding: 3px;
     margin: 1%;
-    
 }
-.foto4{
+
+.foto4 {
     width: 15vw;
     height: 80vh;
     background-color: rgb(255, 255, 255);
     margin: 1%;
     padding: 3px;
-  }
+}
 
-  .botoes{
+  .botoes {
       margin: 3%;
-  }
+}
 
 footer {
     height: 200px;
@@ -163,51 +161,48 @@ footer {
     text-align: center;
     display: block;
     padding: 3px;
-    
 }
 
-@media (max-width: 1468px){
+@media (max-width: 1468px) {
     #primeira{
         flex-wrap: wrap;
     }
 }
-@media screen and (max-width: 667px) and (min-width: 375px){
-    header{
+@media screen and (max-width: 667px) and (min-width: 375px) {
+    header {
         width: 100vw;
-        
     }
 
-    .menu{
+    .menu {
         width: 100vw;
     }
     
-    #titulo{
+    #titulo {
         width: 100vw;
         height: 3vh;
     }
 
-    .ptitulo{
+    .ptitulo {
         justify-content: center;
-        width: 90vw;
+        width: 100%;
         height: 8vh;
         font-size: 10pt;
         display: flex;
-       overflow-wrap: normal;
+        overflow-wrap: normal;
     }
 
-
-    .coluna1{
+    .coluna1 {
         width: 100%;
         height: 80%;
     }
-    .foto1{
+    .foto1 {
         width: 375px;
         height: 350px;
         justify-content: center;
         position: relative;
     }
 
-    .foto2{
+    .foto2 {
         max-width: 375px;
         max-height: 350px;
         width: auto;
@@ -216,52 +211,51 @@ footer {
         position: relative;
     }
 
-    .quemsomos{
+    .quemsomos {
         
         width: 100%;
         height: 40%;
-        justify-content: center;
-        
-        
+        justify-content: center;    
     }
 
-    .dielari{
+    .dielari {
         width: 60%;
         height:80% ;
         z-index: 10;
         margin-top: 4%;
     }
 
-    .pcasal{
+    .pcasal {
         width: 70%;
         top:80%;
 
     }
-    .bot .botoes{
+    .bot .botoes {
         margin: 3%;
     }
-    
-
-    
-    #segunda{
+     
+    #segunda {
         flex-wrap: wrap;
+    }
 
+    #terceira {
+        flex-wrap: wrap;
     }
     
-    .foto3{
+    .foto3 {
         width: 375px;
         height: 350px;
         justify-content: center;
         position: relative;
     }
-   .foto4{
+   .foto4 {
     width: 375px;
     height: 350px;
     justify-content: center;
     position: relative;
    }
 
-   footer{
+   footer {
        max-width: 100%;
        position: relative;
        margin: 0 auto;
