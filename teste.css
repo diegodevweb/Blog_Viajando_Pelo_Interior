@@ -10,6 +10,13 @@ body, html {
     height: 100%;
 }
 
+@font-face {
+    font-family: 'Just';
+    font-weight: bolder;
+    font-style: normal;
+    src: url('fonte/JustKingDemoRegular.ttf');
+}
+
 .menu {
     width: 100%;
     height: 10%;
@@ -18,16 +25,20 @@ body, html {
     background-color: rgb(226, 226, 226);
     text-decoration: none;
     padding: 3px;
+    align-items: center;
+    font-family: Just;
 }
 
 .menu li a {
     text-decoration: none;
     align-items: center;
+    padding: 6px;
 }
 
 ul {
     list-style: none;
     display: flex;
+    padding: 10px;
 }
 
 ul li :hover {
@@ -40,16 +51,24 @@ a {
     color: rgb(103, 103, 103);
 }
 #titulo {
+    display: flex;
+    align-items: center;
     min-width: 100%;
     height: 50px;
     text-align: center;
     margin-top: 5px;
     background-color: rgb(226, 226, 226);
-    height: 5vh;
+    height: 15vh;
     font-weight: bolder;
     font-size: 18pt;
     margin: 0;
     margin-top: 5px;
+}
+
+h1{
+    font-family: Just;
+    color: rgb(62, 62, 62);
+    font
 }
 
 .ptitulo {
@@ -72,6 +91,7 @@ a {
     position: relative;
     margin-top: 50px;
 }
+
 #segunda {
     display: flex;
     text-align: center;
@@ -84,12 +104,12 @@ a {
     justify-content: center;
     position: relative;
 }
+
 .fotocid {
     width: 50vw;
-    height: 80vh;
     background-color: rgb(255, 255, 255);
     padding: 3px;
-    margin: 10px;
+    box-shadow: 5px 5px 5px 2px rgb(122, 122, 122);
 }
 
 .coluna1 {
@@ -114,7 +134,10 @@ a {
     position: relative;
     padding: 3px;
     margin: 0.8%;
+    margin-top: 15px;
     display:inline-flex;
+    box-shadow: 5px 5px 5px 2px rgb(122, 122, 122);
+    
 }
 
 .pcasal {
@@ -151,6 +174,7 @@ a {
     margin: 1%;
     padding: 3px;
     margin-top: -59px;
+    box-shadow: 5px 5px 5px 2px rgb(122, 122, 122);
 }
 
 .snapwidget-widget{
@@ -168,6 +192,7 @@ a {
     background-color: rgb(255, 255, 255);
     margin: 1%;
     padding: 3px;
+    box-shadow:5px 5px 5px 2px rgb(122, 122, 122);
 }
 
   .botoes {
@@ -176,7 +201,7 @@ a {
 
 footer {
     height: 200px;
-    height: 100px;
+    height: 40px;
     min-width: 100%;
     background-color: grey;
     text-align: center;
@@ -257,6 +282,10 @@ footer {
         height:55% ;
         z-index: 10;
         margin-top: 4%;
+    }
+
+    .pcasal{
+        margin-top: 40px;
     }
 
     .pfotos{
@@ -350,7 +379,7 @@ footer {
     }
 
     .continuarlendo {
-        margin-top: -15px;
+        margin-top: -20x;
     }
 
     .quemsomos {
@@ -366,7 +395,7 @@ footer {
         margin-top: 4%;
     }
 
-    .pfotos{
+    .pcasal{
         margin-top: 0;
     }
    
@@ -435,6 +464,7 @@ footer {
 
     .foto2 {
         width: 25vw;
+        margin-top: 7px;
     }
 
     .foto4{
@@ -464,6 +494,7 @@ footer {
 
     .pcasal{
         margin-bottom: 5px;
+        font-size: 12px;
     }
 
     .pfotos{
@@ -535,6 +566,7 @@ footer {
 
     .pcasal{
         margin-top: -100px;
+        font-size: 14px;
     }
 
     .foto4{
