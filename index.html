@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="teste.css">
     <link rel="shortcut icon" href="midia/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>Viajando pelo Interior - SP</title>
 </head>
 <body>
@@ -20,17 +22,17 @@
                     <li><a href="#">Quem Somos</a></li>
                 </ul>
                 <div class="logoinstagram">
-                    <img src="midia/instagram.png" alt="">
+                    <a href="https://www.instagram.com/viajandopelointeriorsp/" target="_blank" rel="external"><img src="midia/instagram.png" alt="instagram"></a>
                 </div>
             </nav>
         </header>
         <section id="titulo">
-            <h1>Viajando Pelo Interior SP</h1>
+            <h1>Viajando Pelo Interior - SP</h1>
         </section>
         <section id="primeira">
             <div class="fotocid">
                 <img class="coluna1" src="midia/cananeia.jpg" alt="">
-                <p class="pfotos">Ilha do Cardoso - Um paraíso no interior </p><br>
+                <p class="pfotos">Ilha do Cardoso - Um paraíso no interior.</p>
                 <form action="ilhadocardoso.html" target="_blank">
                     <button type="submit" class="continuarlendo"> Continuar lendo</button>
                 </form>
@@ -46,7 +48,7 @@
             <div class="fotocid">
                 <img class="coluna1" src="midia/portalSocorro.jpg" alt="">
                 <p class="pfotos">Socorro, trilhas e aventuras. </p>
-                <form action="socorro.html" target="_blank"> <br>
+                <form action="socorro.html" target="_blank">
                     <button type="submit" class="continuarlendo"> Continuar lendo</button>
                 </form>
             </div>
@@ -60,16 +62,21 @@
             <div class="fotocid">
                 <img class="coluna1" src="midia/campos.jpg" alt="">
                 <p class="textoimg">
-                <p class="pfotos">Campos do Jordão - Um de nossos destinos favoritos.</p><br>
+                <p class="pfotos">Campos do Jordão - Um de nossos destinos favoritos.</p>
                 <form action="ilhadocardoso.html" target="_blank">
                     <button type="submit" class="continuarlendo"> Continuar lendo</button>
                 </form>
             </div>
             <aside class="foto5">Gastronomia</aside>
         </section>
-        <div><button type="button" class="btn btn-info">Home</button></div>
+        <img src="midia/de-volta-ao-topo.png" id="back-to-top"></img> 
     </main>
         <footer>Viajando pelo Interior SP - Por Diego e Lari © Todos os direitos reservados. </footer>
 </body>
-
+    <script>
+        var btn = document.querySelector("#back-to-top");
+        btn.addEventListener("click", function() {
+        window.scrollTo(0, 0);
+    });
+    </script>
 </html>
