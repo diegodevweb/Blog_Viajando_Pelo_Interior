@@ -11,6 +11,12 @@ body, html {
     font-size: 1.3rem;
 }
 
+@font-face {
+    src: url(fonte/Saudagar.ttf);
+    font-weight: normal;
+    font-family: Saudagar;
+}
+
 .menu {
     width: 100%;
     height: 12%;
@@ -20,20 +26,20 @@ body, html {
     text-decoration: none;
     padding: 3px;
     align-items: center;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 18pt;
+    font-family: 'Saudagar';
+    font-size: 20pt;
 }
 
 .menu li a {
     text-decoration: none;
     align-items: center;
-    padding: 10px;
+    padding: 3px;
 }
 
 ul {
     list-style: none;
     display: flex;
-    padding: 10px;
+    padding: 3px;
 }
 
 ul li :hover {
@@ -62,7 +68,7 @@ a {
 }
 
 h1{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Saudagar';
     color: rgb(62, 62, 62); 
 }
 
@@ -101,13 +107,13 @@ h1{
 
 .pfotos {
     margin-top: 3%;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Saudagar;
+    font-size: 1.5rem
 }
 
 .continuarlendo{
-    font-family:Arial, Helvetica, sans-serif;
-    width: 25%;
-    height: 20px;
+    font-family: Saudagar;
+    font-size: 18pt;
 }
 
 .textoimg {
@@ -133,14 +139,13 @@ h1{
     padding: 5px;
     top: 450px;
     text-align: justify;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Saudagar;
     font-size: 1rem;
 }
 
 .quemsomos {
-    width: 98%;
+    width: 99%;
     height: 50%;
-    justify-content: center;
     position:absolute;
 }
 
@@ -201,6 +206,7 @@ footer {
     text-align: center;
     display: block;
     padding: 3px;
+    font-size: 0.9rem;
 }
 
 #back-to-top {
@@ -210,13 +216,14 @@ footer {
     z-index: 10;
   }
 
-@media screen and (max-width: 415px) and (min-width: 358px) {
+@media screen and (max-width: 415px) and (min-width: 330px) {
     header {
         width: 100vw;
     }
 
     .menu {
         width: 100vw;
+        font-size: 10pt;
     }
     
     #titulo {
@@ -242,6 +249,7 @@ footer {
         width: 100%;
         height: 80%;
     }
+
     .fotocid{
         width: 375px;
         height: 350px;
@@ -271,7 +279,9 @@ footer {
 
     .continuarlendo {
         width: 50%;
+        height: 12%;
         margin-top: 4px;
+        font-size: 0.7rem;
     }
 
     .quemsomos {
@@ -288,12 +298,14 @@ footer {
     }
 
     .pcasal{
-        margin-top: -5px;
+        margin-top: -155px;
+        font-size: 0.8rem;
     }
 
     .pfotos{
-        margin-top: -4px;
+        margin-top: -7px;
         padding: 3px;
+        font-size: 15px;
     }
    
     #primeira {
@@ -325,12 +337,14 @@ footer {
 }
 
 @media screen and (max-width: 540px) and (min-width: 415px) {
+    
     header {
         width: 100vw;
     }
 
     .menu {
         width: 100vw;
+        font-size: 10pt;
     }
     
     #titulo {
@@ -383,7 +397,8 @@ footer {
     }
 
     .continuarlendo {
-        margin-top: -90px;
+        margin-top: -200px;
+        font-size: 0.7rem;
     }
 
     .quemsomos {
@@ -393,14 +408,21 @@ footer {
     }
 
     .dielari {
-        width: 60%;
+        width: 50%;
         height: 65% ;
         z-index: 10;
         margin-top: 4%;
     }
 
-    .pcasal{
-        margin-top: -40px;
+    .pcasal {
+        top: 300px;
+        font-size: 0.8rem;
+    }
+
+    .pfotos {
+        margin-top: -7px;
+        padding: 3px;
+        font-size: 15px;
     }
    
     #primeira {
@@ -437,13 +459,14 @@ footer {
 }
 
 
-@media screen and (max-width: 667px) and (min-width: 415px) {
+@media screen and (max-width: 667px) and (min-width: 541px) {
     header {
         width: 100vw;
     }
 
     .menu {
         width: 100vw;
+        font-size: 12pt;
     }
     
     #titulo {
@@ -496,7 +519,8 @@ footer {
     }
 
     .continuarlendo {
-        margin-top: -90px;
+        margin-top: -200px;
+        font-size: 0.7rem;
     }
 
     .quemsomos {
@@ -513,7 +537,14 @@ footer {
     }
 
     .pcasal{
-        margin-top: -40px;
+        top: 280px;
+        font-size: 0.8rem;
+    }
+
+    .pfotos {
+        margin-top: -7px;
+        padding: 3px;
+        font-size: 15px;
     }
    
     #primeira {
@@ -556,11 +587,13 @@ footer {
 
     .menu {
         width: 100vw;
+        font-size: 12pt;
     }
     
     #titulo {
         width: 100vw;
         height: 8vh;
+        font-size: 10pt;
     }
 
     .ptitulo {
@@ -578,7 +611,8 @@ footer {
         width: 100%;
         height: 80%;
     }
-    .fotocid{
+
+    .fotocid {
         width: 50%;
         height: 70vh;
         justify-content: center;
@@ -590,19 +624,22 @@ footer {
         margin-top: 7px;
     }
 
-    .foto4{
+    .foto4 {
         width: 25vw;
         height: 450px;
+        font-size: 0.8rem;
     }
 
-    .foto5{
+    .foto5 {
         width: 25%;
         height: 450px;
         margin-top: -15px;
         margin-bottom: 10%;
+        font-size: 0.8rem;
     }
 
     .quemsomos {
+        width: 97.5%;
         height: 60%;
         justify-content: center;    
     }
@@ -615,13 +652,15 @@ footer {
         margin-top: 40%;
     }
 
-    .pcasal{
-        margin-top: -30px;
+    .pcasal {
+        top: 260px;
         font-size: 12px;
     }
 
     .pfotos{
-        margin-top: 0;
+        margin-top: -7px;
+        padding: 3px;
+        font-size: 15px;
     }
     
     .botoes {
@@ -644,6 +683,11 @@ footer {
         margin-bottom: 80px;
     }
 
+    .continuarlendo {
+        margin-top: -200px;
+        font-size: 0.7rem;
+    }
+
    footer {
        display: flex;
        max-width: 100%;
@@ -656,11 +700,14 @@ footer {
 }
 
 @media screen and (min-width: 781px) and (max-width: 1024px) {
-    *{
-        margin: 0 auto;
-    }
+   
     h1{
         font-size: 25px;
+    }
+
+    .menu {
+        width: 100vw;
+        font-size: 12pt;
     }
 
     .ptitulo{
@@ -675,6 +722,7 @@ footer {
     }
 
     .foto2{
+        margin-top: 8px;
         display: flex;
         width: 25vw;
         height: 40vh;
@@ -688,54 +736,124 @@ footer {
     }
 
     .pcasal{
-        margin-top: -120px;
+        top: 170px;
         font-size: 14px;
     }
 
     .foto4{
         width: 25vw;
         height: 90vh;
+        margin-top: -200px;
+        font-size: 0.7rem;
+        margin-top: -90px;
     }
 
     .foto5{
         width: 25vw;
         height: 60vh;
         margin-top: 7px;
+        font-size: 0.7rem;
     }
 
     #segunda{
         margin-top: 20px;
     }
+
+    .pfotos {
+        margin-top: -7px;
+        padding: 3px;
+        font-size: 15px;
+    }
+
+    .continuarlendo {
+        margin-top: -200px;
+        font-size: 0.7rem;
+    }
     
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1160px) {
-    .ptitulo{
-        height: 5vh;
-        margin-top: -20px;
-        padding: 15px;
+    h1{
+        font-size: 25px;
     }
 
-    .foto4 {
-         height: 80vh;
+    .menu {
+        width: 100vw;
+        font-size: 12pt;
+    }
+
+    .ptitulo{
+        padding: 15px;
+        margin-top: -15px;
+        height: 2vh;
+    }
+
+    .fotocid{
+        width: 45vw;
+        height: 68vh;
+    }
+
+    .foto2{
+        margin-top: 10px;
+        display: flex;
+        width: 25vw;
+        height: 45vh;
+        justify-content: center;
+    }
+
+    .dielari{
+        height: 70%;
+        margin-top: 5px;
+        position: absolute;
+    }
+
+    .pcasal{
+        top: 190px;
+        font-size: 14px;
+    }
+
+    .foto4{
+        width: 25vw;
+        height: 100vh;
+        margin-top: -200px;
+        font-size: 0.7rem;
+        margin-top: -90px;
+    }
+
+    .foto5{
+        width: 25vw;
+        height: 60vh;
+        margin-top: 7px;
+        font-size: 0.7rem;
     }
 
     #segunda{
-        margin-top: 50px;
+        margin-top: 20px;
     }
 
-    .dielari {
-        width: 85%;
-        height: 65%;
-        margin-top: 22px;
+    .pfotos {
+        margin-top: -7px;
+        padding: 3px;
+        font-size: 15px;
     }
 
-    .pcasal {
-        margin-top: -45px;
+    .continuarlendo {
+        margin-top: -200px;
+        font-size: 0.7rem;
     }
  }
 
- @media screen and (min-width: 1161px) and (max-width: 1399px) {
+ @media screen and (min-width: 1161px) and (max-width: 1300px) {
+    .foto4 {
+        width: 20vw;
+        height: 90vh;
+        margin-top: -200px;
+        font-size: 0.7rem;
+        margin-top: -90px;
+    }
+ }
+
+ @media screen and (min-width: 1301px) and (max-width: 1399px) {
     .ptitulo{
         height: 5vh;
         margin-top: -20px;
@@ -743,7 +861,15 @@ footer {
     }
 
     .foto4 {
-         height: 100vh;
+        width: 20vw;
+        height: 95vh;
+        margin-top: -200px;
+        font-size: 0.7rem;
+        margin-top: -90px;
+    }
+
+    .foto5 {
+        font-size: 0.7rem;
     }
 
     #segunda{
@@ -757,35 +883,65 @@ footer {
     }
 
     .pcasal {
-        margin-top: -25px;
+        top: 255px;
+        font-size: 0.7rem;
+    }
+
+    .pfotos {
+        font-size: 0.7rem;
+    }
+
+    .continuarlendo {
+        font-size: 0.7rem;
     }
 }
 
-
-@media screen and (min-width: 1400px) and (max-width: 1680px) {
+@media screen and (min-width: 1400px) and (max-width: 1580px) {
     .ptitulo{
         height: 5vh;
-        margin-top: -15px;
+        margin-top: -20px;
         padding: 15px;
     }
 
     .foto4 {
+        width: 20vw;
         height: 100vh;
-   }
+        margin-top: -200px;
+        font-size: 0.7rem;
+        margin-top: -90px;
+    }
 
-   #primeira{
+    .foto5 {
+        font-size: 0.7rem;
+    }
+
+    #segunda{
+        margin-top: 50px;
+    }
+
+    .dielari {
+        width: 65%;
+        height: 50%;
         margin-top: 80px;
-   }
+    }
 
-   #segunda{
-       margin-top: 50px;
-   }
+    .pcasal {
+        top: 255px;
+        font-size: 0.7rem;
+    }
 
-   .dielari{
-       width: 70%;
-       height: 58%;
-   }
+    .pfotos {
+        font-size: 0.7rem;
+    }
+
+    .continuarlendo {
+        font-size: 0.7rem;
+    }
 }
+
+
+
+
 
 
     
