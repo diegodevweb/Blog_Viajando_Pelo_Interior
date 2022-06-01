@@ -8,30 +8,26 @@ body, html {
     background-color: rgb(235, 235, 235);
     width: 100vw;
     height: 100%;
-}
-
-@font-face {
-   font-family: 'Saudagar';
-   src: url(fonte/Saudagar.ttf);
-   font-style: normal;
+    font-size: 1.3rem;
 }
 
 .menu {
     width: 100%;
-    height: 10%;
+    height: 12%;
     display: flex;
     justify-content: space-around;
     background-color: rgb(226, 226, 226);
     text-decoration: none;
     padding: 3px;
     align-items: center;
-    font-family: Saudagar;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18pt;
 }
 
 .menu li a {
     text-decoration: none;
     align-items: center;
-    padding: 6px;
+    padding: 10px;
 }
 
 ul {
@@ -45,6 +41,7 @@ ul li :hover {
     border-radius: 5px;
     padding: 3px;
 }
+
 a {
     margin: 8px;
     color: rgb(103, 103, 103);
@@ -65,7 +62,7 @@ a {
 }
 
 h1{
-    font-family: Saudagar;
+    font-family:Arial, Helvetica, sans-serif;
     color: rgb(62, 62, 62); 
 }
 
@@ -104,11 +101,13 @@ h1{
 
 .pfotos {
     margin-top: 3%;
-    font-family: Saudagar;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .continuarlendo{
-    font-family: 'Saudagar';
+    font-family:Arial, Helvetica, sans-serif;
+    width: 25%;
+    height: 20px;
 }
 
 .textoimg {
@@ -131,8 +130,11 @@ h1{
 
 .pcasal {
     position: absolute;
-    top: 300px;
-    font-family: Saudagar;
+    padding: 5px;
+    top: 450px;
+    text-align: justify;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1rem;
 }
 
 .quemsomos {
