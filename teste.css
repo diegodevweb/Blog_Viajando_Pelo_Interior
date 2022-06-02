@@ -878,7 +878,7 @@ footer {
 
     .dielari{
         width: 70%;
-        height: 35%;
+        height: 40%;
         margin-top: 110px;
         position: absolute;
     }
@@ -890,7 +890,7 @@ footer {
 
     .foto4{
         width: 20vw;
-        height: 65vh;
+        height: 73vh;
         margin-top: -350px;
         font-size: 0.7rem;
         margin-top: -20px;
@@ -961,20 +961,20 @@ footer {
 
     .dielari{
         width: 70%;
-        height: 40%;
+        height: 43%;
         margin-top: 75px;
         position: absolute;
     }
 
     .pcasal{
         top: 260px;
-        font-size: 1rem;
+        font-size: 0.8rem;
         text-align: center;
     }
 
     .foto4{
         width: 20vw;
-        height: 70vh;
+        height: 80vh;
         margin-top: -30px;
         font-size: 1.2rem;
     }
@@ -1038,7 +1038,7 @@ footer {
     }
 
     .fotocid{
-        width: 55vw;
+        width: 45vw;
         height: 70vh;
         margin-bottom: 80px;
     }
@@ -1046,27 +1046,27 @@ footer {
     .foto2{
         margin-top: 13px;
         display: flex;
-        width: 25vw;
+        width: 20vw;
         height: 65vh;
         justify-content: center;
     }
 
     .dielari{
-        width: 65%;
+        width: 75%;
         height: 45%;
         margin-top: 85px;
         position: absolute;
     }
 
     .pcasal{
-        top: 360px;
-        font-size: 1rem;
+        top: 300px;
+        font-size: 0.8em;
         text-align: center;
     }
 
     .foto4{
         width: 25vw;
-        height: 90vh;
+        height: 105vh;
         margin-top: -40px;
         font-size: 1rem;
        
@@ -1120,39 +1120,39 @@ footer {
     }
 
     .fotocid{
-        width: 45vw;
+        width: 40vw;
         height: 70vh;
     }
     .foto2{
         margin-top: 13px;
         display: flex;
-        width: 25vw;
+        width: 20vw;
         height: 65vh;
         justify-content: center;
     }
 
     .dielari {
-        width: 60%;
-        height: 45%;
+        width: 62%;
+        height: 43%;
         margin-top: 85px;
         position: absolute;
     }
 
     .pcasal {
-        top: 350px;
+        top: 320px;
         font-size: 1rem;
         text-align: center;
     }
 
     .foto4 {
-        width: 25vw;
+        width: 20vw;
         height: 98vh;
         margin-top: -50px;
         font-size: 1rem;
     }
 
     .foto5 {
-        width: 25vw;
+        width: 20vw;
         height: 69.3vh;
         margin-top: 60px;
         font-size: 1rem;
