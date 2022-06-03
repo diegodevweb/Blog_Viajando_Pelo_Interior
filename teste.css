@@ -1052,9 +1052,9 @@ footer {
     }
 
     .dielari{
-        width: 75%;
-        height: 45%;
-        margin-top: 85px;
+        width: 65%;
+        height: 35%;
+        margin-top: 125px;
         position: absolute;
     }
 
@@ -1133,8 +1133,8 @@ footer {
 
     .dielari {
         width: 62%;
-        height: 43%;
-        margin-top: 85px;
+        height: 38%;
+        margin-top: 105px;
         position: absolute;
     }
 
@@ -1149,6 +1149,10 @@ footer {
         height: 98vh;
         margin-top: -50px;
         font-size: 1rem;
+    }
+
+    .snapwidget-widget {
+        max-height: 90vh;
     }
 
     .foto5 {
@@ -1213,9 +1217,9 @@ footer {
     }
 
     .dielari {
-        width: 68%;
-        height: 42%;
-        margin-top: 95px;
+        width: 62%;
+        height: 40%;
+        margin-top: 115px;
         position: absolute;
     }
 
