@@ -94,7 +94,7 @@ h1 {
     position: relative;
 }
 
-.fotocid, .foto3 {
+.fotocid {
     width: 50vw;
     background-color: rgb(255, 255, 255);
     padding: 3px;
@@ -103,13 +103,13 @@ h1 {
 
 .coluna1 {
     width: 100%;
-    height: 80%;
+    height: 85%;
 }
 
 .pfotos {
     margin-top: 3%;
     font-family: Saudagar;
-    font-size: 1.5rem
+    font-size: 1.5rem;
 }
 
 .continuarlendo{
@@ -159,7 +159,7 @@ h1 {
 
 .fotocid {
     width: 40vw;
-    height: 80vh;
+    height: 85vh;
     background-color: rgb(255, 255, 255);
     padding: 3px;
     margin: 1%;
@@ -199,6 +199,29 @@ h1 {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 20vh 20vh 20vh;  
+}
+
+.linkgastro {
+    text-decoration: none;
+}
+
+.gastro, .gastro1, .gastro2, .gastro3, .gastro4, .gastro5 {
+    max-width: 130%;
+    max-height: 130%;
+    margin: 3px;
+    padding: 2px;
+}
+
+.gastronomia {
+    display: grid;
+    grid-template-columns: 10vh 10vh;
+    grid-template-rows: 8vw 8vw 8vw;
+    margin: 5px;
+    padding: 5px;
+    justify-content: space-around;
+    justify-items: center;display: grid;
+    grid-template-columns: 10vh 10vh;
+    grid-template-rows: 8vw 8vw 8vw;
 }
 
 /*.item1, .item2, .item3 {
@@ -304,7 +327,7 @@ footer {
     }
 
     .dielari {
-        width: 65%;
+        width: 60%;
         height: 60% ;
         z-index: 10;
         margin-top: 20%;
@@ -337,6 +360,19 @@ footer {
         flex-wrap: wrap;
         top: 50px;
         margin-bottom: 80px;
+    }
+
+    .gastro, .gastro1, .gastro2, .gastro3, .gastro4, .gastro5 {
+        max-width: 120%;
+        max-height: 120%;
+    }
+    
+    .gastronomia {
+        display: grid;
+        grid-template-columns: 10vh 10vh 10vh;
+        grid-template-rows: 150px 160px;
+        justify-content: space-evenly;
+        align-items: normal;
     }
 
    footer {
@@ -425,7 +461,7 @@ footer {
 
     .quemsomos {
         width: 100%;
-        height: 40%;
+        height: 50%;
         justify-content: center;    
     }
 
@@ -464,6 +500,19 @@ footer {
         margin-bottom: 80px;
     }
 
+    .gastro, .gastro1, .gastro2, .gastro3, .gastro4, .gastro5 {
+        max-width: 120%;
+        max-height: 120%;
+    }
+    
+    .gastronomia {
+        display: grid;
+        grid-template-columns: 10vh 10vh 10vh;
+        grid-template-rows: 150px 160px;
+        justify-content: space-evenly;
+        align-items: normal;
+    }
+
    footer {
        display: flex;
        max-width: 100%;
@@ -482,7 +531,7 @@ footer {
 }
 
 
-@media screen and (max-width: 667px) and (min-width: 541px) {
+@media screen and (max-width: 667.9px) and (min-width: 541px) {
     header {
         width: 100vw;
     }
@@ -549,7 +598,7 @@ footer {
 
     .quemsomos {
         width: 100%;
-        height: 40%;
+        height: 50%;
         justify-content: center;    
     }
 
@@ -586,6 +635,19 @@ footer {
         flex-wrap: wrap;
         top: 50px;
         margin-bottom: 80px;
+    }
+
+    .gastro, .gastro1, .gastro2, .gastro3, .gastro4, .gastro5 {
+        max-width: 130%;
+        max-height: 130%;
+    }
+    
+    .gastronomia {
+        display: grid;
+        grid-template-columns: 10vh 10vh 10vh;
+        grid-template-rows: 150px 160px;
+        justify-content: space-evenly;
+        align-items: normal;
     }
 
    footer {
@@ -672,15 +734,15 @@ footer {
 
     .quemsomos {
         width: 100%;
-        height: 40%;
+        height: 50%;
         justify-content: center;    
     }
 
     .dielari {
-        width: 60%;
-        height:65% ;
+        width: 50%;
+        height: 62% ;
         z-index: 10;
-        margin-top: 4%;
+        margin-top: 6%;
     }
 
     .pcasal{
@@ -709,6 +771,19 @@ footer {
         flex-wrap: wrap;
         top: 50px;
         margin-bottom: 80px;
+    }
+
+    .gastro, .gastro1, .gastro2, .gastro3, .gastro4, .gastro5 {
+        max-width: 120%;
+        max-height: 120%;
+    }
+    
+    .gastronomia {
+        display: grid;
+        grid-template-columns: 13vh 13vh 13vh;
+        grid-template-rows: 160px 170px;
+        justify-content: space-evenly;
+        align-items: end;
     }
 
    footer {
@@ -796,15 +871,15 @@ footer {
 
     .quemsomos {
         width: 100%;
-        height: 40%;
+        height: 50%;
         justify-content: center;    
     }
 
     .dielari {
-        width: 60%;
-        height:65% ;
+        width: 45%;
+        height: 58% ;
         z-index: 10;
-        margin-top: 4%;
+        margin-top: 10%;
     }
 
     .pcasal{
@@ -833,6 +908,19 @@ footer {
         flex-wrap: wrap;
         top: 50px;
         margin-bottom: 80px;
+    }
+
+    .gastro, .gastro1, .gastro2, .gastro3, .gastro4, .gastro5 {
+        max-width: 130%;
+        max-height: 130%;
+    }
+    
+    .gastronomia {
+        display: grid;
+        grid-template-columns: 13vh 13vh 13vh;
+        grid-template-rows: 160px 170px;
+        justify-content: space-evenly;
+        align-items: end;
     }
 
    footer {
@@ -916,6 +1004,17 @@ footer {
     .continuarlendo {
         margin-top: -200px;
         font-size: 0.7rem;
+    }
+
+    .gastro, .gastro1, .gastro2, .gastro3, .gastro4, .gastro5 {
+        max-width: 130%;
+        max-height: 130%;
+    }
+    
+    .gastronomia {
+        display: grid;
+        grid-template-columns: 9vh 9vh;
+        grid-template-rows: 120px 120px 120px;
     }
 
     footer {
@@ -1003,6 +1102,17 @@ footer {
     .continuarlendo {
         margin-top: -200px;
         font-size: 0.7rem;
+    }
+
+    .gastro, .gastro1, .gastro2, .gastro3, .gastro4, .gastro5 {
+        max-width: 130%;
+        max-height: 130%;
+    }
+    
+    .gastronomia {
+        display: grid;
+        grid-template-columns: 9vh 9vh;
+        grid-template-rows: 120px 120px 120px;
     }
 
     footer {
@@ -1094,6 +1204,20 @@ footer {
         font-size: 0.7rem;
     }
 
+    .gastro, .gastro1, .gastro2, .gastro3, .gastro4, .gastro5 {
+        max-width: 170%;
+        max-height: 100%;
+    }
+    
+    .gastronomia {
+        display: grid;
+        grid-template-columns: 10vh 10vh;
+        grid-template-rows: 140px 140px 140px;
+        margin: 5px;
+        align-items: stretch;
+        justify-content: space-evenly;
+    }
+
     footer {
         margin: 0 auto;
         height: 12%;
@@ -1133,7 +1257,7 @@ footer {
 
     .dielari {
         width: 62%;
-        height: 38%;
+        height: 42%;
         margin-top: 105px;
         position: absolute;
     }
@@ -1175,6 +1299,20 @@ footer {
     .continuarlendo {
         margin-top: -200px;
         font-size: 0.7rem;
+    }
+
+    .gastro, .gastro1, .gastro2, .gastro3, .gastro4, .gastro5 {
+        max-width: 130%;
+        max-height: 130%;
+    }
+    
+    .gastronomia {
+        display: grid;
+        grid-template-columns: 10vh 10vh;
+        grid-template-rows: 140px 140px 140px;
+        margin: 5px;
+        align-items: stretch;
+        justify-content: space-evenly;
     }
 
     footer {
@@ -1258,6 +1396,20 @@ footer {
         font-size: 0.7rem;
     }
 
+    .gastro, .gastro1, .gastro2, .gastro3, .gastro4, .gastro5 {
+        max-width: 130%;
+        max-height: 130%;
+    }
+    
+    .gastronomia {
+        display: grid;
+        grid-template-columns: 10vh 10vh;
+        grid-template-rows: 140px 140px 140px;
+        margin: 5px;
+        align-items: stretch;
+        justify-content: space-evenly;
+    }
+
     footer {
         margin: 0 auto;
         height: 12%;
@@ -1335,6 +1487,20 @@ footer {
     .continuarlendo {
         margin-top: -200px;
         font-size: 0.7rem;
+    }
+
+    .gastro, .gastro1, .gastro2, .gastro3, .gastro4, .gastro5 {
+        max-width: 130%;
+        max-height: 130%;
+    }
+    
+    .gastronomia {
+        display: grid;
+        grid-template-columns: 10vh 10vh;
+        grid-template-rows: 140px 140px 140px;
+        margin: 5px;
+        align-items: stretch;
+        justify-content: space-evenly;
     }
 
     footer {
