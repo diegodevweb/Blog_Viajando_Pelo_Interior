@@ -5,3 +5,39 @@
     padding: 0;
 }
 
+section {
+    background-color: rgb(219, 219, 219);
+    width: 60%;
+    text-align: justify;
+    padding: 1%;
+    font-size: 1rem;
+}
+
+.fotoscananeia {
+    width: 380px;
+    height: 350px;
+    padding: 10px;
+}
+
+.fotoscananeia2 {
+    width: 280px;
+    height: 350px;
+}
+
+.divViagens {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.video{
+    padding: 10px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+img.scaled {
+    width: 100%;
+  }
