@@ -13,6 +13,10 @@ section {
     font-size: 1rem;
 }
 
+#artigoCampos {
+    width: 60%;
+}
+
 .fotoscananeia {
     width: 380px;
     height: 350px;
@@ -41,3 +45,20 @@ figcaption {
 img.scaled {
     width: 100%;
   }
+
+#titulos {
+    margin: 5px;
+}
+
+#aha1 {
+
+}
+
+#paragrafos {
+    padding: 3%;
+}
+
+.campos03, .campos04 {
+    width: 40%;
+    margin: auto;
+}
